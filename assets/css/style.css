@@ -1,63 +1,78 @@
-body{
+body {
+  display: block;
+  box-sizing: border-box;
+  overflow-x: hidden;
   width: 100vw;
-  /* height: 100vw; */
   margin: 0;
   font-size: 15px;
+  line-height: 1.5;
   font-family: sans-serif;
   color: #926239;
-  line-height: 1.3em;
-  text-align: center;
-  padding: 20px;
 }
-
-.header-section{
-  padding: 40vh;
+.header-article-bg {
+  height: 100vh;
+  color: #926239;
   background-image: url(./../images/beachshowcase.jpg);
+  background-position: center;
   background-size: cover;
-  /* height: ; */
+  text-align: center;
+   
 }
-.main-header{
-  display: inline-block;
-  margin: 10px auto;
-  /* margin: 10px auto ;
-  font-size: 50px; */
-  overflow: hidden;
-white-space: nowrap;
-text-overflow: ellipsis;
-
+.wrapper{
+  padding: 30vw 5vw 35vw;
 }
-.header-content{
+.header{
   
-  overflow: hidden;
-white-space: nowrap;
-text-overflow: ellipsis;
-}
-
-.btn{
-  margin: 20px auto;
-display: inline-block;
-width: max-content;
-padding: 10px 20px;
-border: 2px solid #926239;
-border-radius: 15px;
-  text-transform: capitalize;
-  cursor: pointer;
-
-}
-.main-content{
-  padding: 10px;
-  display: inline-block;
-}
-.change-bg{
-  color: white;
-    background-color: #926239;
-}
-.collums{
-  width: 100vw;
-}
-.inline-block{
   display: block;
   margin: 0 auto;
-  /* box-sizing: border-box; */
-  width: 32vw;
+padding: auto auto;
+text-transform: capitalize;
+overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+.header-content{
+  display: block;
+  padding: 0;
+  margin: 0;
+  margin-bottom: 20px;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+
+}
+.btn {
+  display: block;
+  width: max-content;
+  margin: 20px auto 0;
+  border: 1px #926239 solid;
+  border-radius: 5px;
+  padding: 10px 20px;
+  text-transform: capitalize;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  cursor: pointer;
+}
+
+.main-content>p {
+  width: 100vw;
+  min-height: max-content;
+  margin: 0;
+  padding: 15px;
+  
+}
+.collums {
+  display: inline-block;
+  box-sizing: border-box;
+  width: 33.333%;
+  min-height: 220px;
+  max-height: max-content;
+  vertical-align: top;
+  text-align: left;
+  padding: 15px;
+  }
+.change-bg {
+  background-color: #926239;
+  color: white;
 }
