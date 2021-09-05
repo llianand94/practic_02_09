@@ -1,7 +1,7 @@
 body {
   display: block;
   box-sizing: border-box;
-  overflow-x: hidden;
+  /* overflow-x: hidden; */
   width: 100vw;
   margin: 0;
   font-size: 15px;
@@ -10,28 +10,28 @@ body {
   color: #926239;
 }
 .header-article-bg {
+  font-size: 1.4em;
   height: 100vh;
   color: #926239;
   background-image: url(./../images/beachshowcase.jpg);
   background-position: center;
   background-size: cover;
   text-align: center;
-   
 }
-.wrapper{
+.wrapper {
   padding: 30vw 5vw 35vw;
 }
-.header{
-  
+.header {
   display: block;
   margin: 0 auto;
-padding: auto auto;
-text-transform: capitalize;
-overflow: hidden;
+  padding: auto auto;
+  text-transform: capitalize;
+  
+  overflow: hidden;
   white-space: nowrap;
   text-overflow: ellipsis;
 }
-.header-content{
+.header-content {
   display: block;
   padding: 0;
   margin: 0;
@@ -39,7 +39,6 @@ overflow: hidden;
   overflow: hidden;
   white-space: nowrap;
   text-overflow: ellipsis;
-
 }
 .btn {
   display: block;
@@ -55,12 +54,14 @@ overflow: hidden;
   cursor: pointer;
 }
 
-.main-content>p {
+.main-content > p {
+  box-sizing: border-box;
   width: 100vw;
   min-height: max-content;
   margin: 0;
   padding: 15px;
-  
+  padding-right: 20px;
+  text-align: center;
 }
 .collums {
   display: inline-block;
@@ -68,10 +69,12 @@ overflow: hidden;
   width: 33.333%;
   min-height: 220px;
   max-height: max-content;
+  padding: 15px;
+  padding-right: 20px;
+  margin: 0;
   vertical-align: top;
   text-align: left;
-  padding: 15px;
-  }
+}
 .change-bg {
   background-color: #926239;
   color: white;
