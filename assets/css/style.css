@@ -1,7 +1,6 @@
 body {
   display: block;
   box-sizing: border-box;
-  /* overflow-x: hidden; */
   width: 100vw;
   margin: 0;
   font-size: 15px;
@@ -10,12 +9,12 @@ body {
   color: #926239;
 }
 .header-article-bg {
-  font-size: 1.4em;
   height: 100vh;
-  color: #926239;
   background-image: url(./../images/beachshowcase.jpg);
   background-position: center;
   background-size: cover;
+  color: #926239;
+  font-size: 1.4em;
   text-align: center;
 }
 .wrapper {
@@ -24,9 +23,8 @@ body {
 .header {
   display: block;
   margin: 0 auto;
-  padding: auto auto;
   text-transform: capitalize;
-  
+
   overflow: hidden;
   white-space: nowrap;
   text-overflow: ellipsis;
@@ -36,6 +34,7 @@ body {
   padding: 0;
   margin: 0;
   margin-bottom: 20px;
+
   overflow: hidden;
   white-space: nowrap;
   text-overflow: ellipsis;
@@ -43,15 +42,17 @@ body {
 .btn {
   display: block;
   width: max-content;
+  max-width: 125px;
   margin: 20px auto 0;
   border: 1px #926239 solid;
   border-radius: 5px;
   padding: 10px 20px;
   text-transform: capitalize;
+  cursor: pointer;
+
   overflow: hidden;
   white-space: nowrap;
   text-overflow: ellipsis;
-  cursor: pointer;
 }
 
 .main-content > p {
